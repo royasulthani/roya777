@@ -4,56 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
 </head>
 <body>
-    <form  action="https://eu.httpbin.org/post"  method="post" >
-    
-        <form>
-    
-            <h1>Application form</h1>
-        <label for="fname">Ad:</label>
-        <input type="text" id="fname" name="fname"><br>
-        <br>
-        <br>
-        <label  for="lname">Soyad:</label>
-        <input type="text" id="lname" name="lname"required><br>
-        <br>
-        <br>
-        <label for="password">Şifrə:</label>
-        <input type="password" id="password" name="password" required minLength="9" ><br>
-        <br>
-        <br>
-        <input type="submit" value="Button">
+    <header>
+        <nav>
+          <div class="container">
+            <div class="navbar">
+              <div class="logo">
+                <a href="#">DIRECTORY</a>
+              </div>
+              <div class="menu-items">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Template</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Sign in</a></li>
+                  <li><a href="#">Sign up</a></li>
+                  <li><a href="#">ADD A LISTING</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section id="intro">
+          <div class="container">
+            <div class="intro-content">
+              <div class="intro-img">
+                <img src="/Homepage - Directory React Theme_files/photo-1501621965065-c6e1cf6b53e2.jpg" alt="" />
+              </div>
+              <div class="intro-title">
+                <h1>Stay like a local</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="py-6">
+            <div class="container">
+              <div class="row">
+                <div class="col-8">
+                    <p class="ilk text">Stay and eat like a local</p>
+                    <h2>Our guides</h2>
+                </div>
+                  <div class="card1">
+                    <img src="/Homepage - Directory React Theme.html" alt="" />
+                      <a class="link bashligi" aria-label="New York haqda daha cox melumat oxuyun"href="https://directory-v2.vercel.app/category-2-rooms"></a>
+                  </div>
+                  <div class="üst-üstə düşən məzmun karti gövdəsi"></div>
+                  <h6 class="text card title">NEW YORK</h6>
+                  <p class="kicik text">The big apple</p>
+              </div>::after
+            </div>
+                </div>
+                <div class="card2">
+                    <img src="/Homepage - Directory React Theme.html" alt="" />
+                      <a class="link bashligi" aria-label="Paris haqda daha cox melumat oxuyun"href="https://directory-v2.vercel.app/category-2-rooms"></a>
+                  </div>
+                  <div class="üst-üstə düşən məzmun karti gövdəsi"></div>
+                  <h6 class="text card title">PARIS</h6>
+                  <p class="kicik text">Artist capital of Europe</p>
+              </div>::after
+                  </div>
+                </div>
+                <div class="card3">
+                    <img src="/Homepage - Directory React Theme.html" alt="" />
+                      <a class="link bashligi" aria-label="Barcelona haqda daha cox melumat oxuyun"href="https://directory-v2.vercel.app/category-2-rooms"></a>
+                  </div>
+                  <div class="üst-üstə düşən məzmun karti gövdəsi"></div>
+                  <h6 class="text card title">BARCELONA</h6>
+                  <p class="kicik text">Dali,Gaudi,Barrio,Gotico</p>
+              </div>::after
+                  </div>
+                </div>
+                <div class="card4">
+                    <img src="/Homepage - Directory React Theme.html" alt="" />
+                      <a class="link bashligi" aria-label="Prague haqda daha cox melumat oxuyun"href="https://directory-v2.vercel.app/category-2-rooms"></a>
+                  </div>
+                  <div class="üst-üstə düşən məzmun karti gövdəsi"></div>
+                  <h6 class="text card title">PRAGUE</h6>
+                  <p class="kicik text">City of hundred towers</p>
+              </div>::after
+              </div>
+            </div>
+            <div class="card5">
+                <img src="/Homepage - Directory React Theme.html" alt="" />
+                  <a class="link bashligi" aria-label="New York haqda daha cox melumat oxuyun"href="https://directory-v2.vercel.app/category-2-rooms"></a>
+              </div>
+              <div class="üst-üstə düşən məzmun karti gövdəsi"></div>
+              <h6 class="text card title">NEW YORK</h6>
+              <p class="kicik text">The big apple</p>
+          </div>::after
+          </section>
+        </main>
 </body>
 </html>
-    </form>
-</body>
-</html>
-<p>Cinsinizi seçin:</p>
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Kişi:</label>
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Qadin:</label><br>
-    <p>Bitirdiyiniz təhsil dərəcələrini seçin:</p>
-    <p></p>
-    <ul type="square">
-        <li>Orta</li>
-        <li>Bakalavr</li>
-        <li>Magistr</li>
-        <li>Doktor</li>
-        
- </form>
-</body>
-</html>
-<label for="fname">Yaş:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <br>
-        <label  for="lname">Boy:</label><br>
-        <input type="text" id="lname" name="lname"required><br>
-        <br>
-        <label  for="lname">Çəki:</label><br>
-        <input type="text" id="lname" name="lname"required><br>
-        <input type="submit" value="Təsdiqlə">
-        
-
